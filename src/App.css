@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  }
+p{
+  margin: 0;
+}
+
+header {
+  background-color: whitesmoke;
+  margin: 0px;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  }
+
+.brand {
+  color: #338573;
+  font-family: Noto Sans Hebrew;
+  font-size: 36px;
+}
+
+header a {
+  text-decoration: none;
+  color: #338573;
+  font-size: 20px;
+  font-family: Noto Sans Hebrew;
+  margin: 20px;
+}
+
+header button {
+  margin-right: 20px;
+  background-color: #338573;
+  font-size: 24px;
+  color: #FFFFFF;
+  font-family: Noto Sans Hebrew;
+  border: none;
+  border-radius: 7px;
+  padding: 0.4rem;
+}
+
+.banner{
+background-image: url("./images/Banner.png");
+height: 80vh;
+background-repeat: no-repeat;
+background-size: contain;
+}
+.container{
+  margin-left: 70px;
+}
+
+
+.container span{
+  color: #338573;
+}
+
+.container h1{
+  margin-top: 80px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 4.5rem;
+  margin-bottom: 0px;
+
+}
+.container p{
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.search input{
+border:2px solid #338573;
+width: 270px;
+padding: 0.5rem;
+border-radius: 4px;
+}
+.search button{
+  background-color: #338573;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 4px;
+  font-size:17px ;
+  color: #FFFFFF;
+}
+
